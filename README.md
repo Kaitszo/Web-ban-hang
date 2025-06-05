@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Laravel hiện vẫn đang là Framework được các công ty lập trình PHP tuyển dụng nhiều nhất hiện nay. Nhằm mục đích nâng cao chất lượng học viên khóa PHP, cũng như update loạt bài Laravel trước đây, Trung Tâm Khoa Phạm quyết định xuất bản loạt video "HƯỚNG DẪN LẬP TRÌNH WEB VỚI LARAVEL".
 
 Loạt bài này sử dụng Laravel version mới nhất hiện nay, ngoài ra, bạn còn được sử dụng những kiến thức thực tế như Laravel debugbar, xử lý Ajax nâng cao, Đệ quy, Job Events Queue, Composer, Command... - Giảng viên là người đã từng có nhiều năm kinh nghiệm lập trình laravel tại các công ty lớn, cũng đang là giảng viên tại Trung Tâm Khoa Phạm.
@@ -19,3 +20,6 @@ Loạt bài này sử dụng Laravel version mới nhất hiện nay, ngoài ra,
 > - Khóa học Lập trình PHP tại [Khoa Phạm](https://khoapham.vn/lap-trinh-php.html)
 
 Chúc các bạn học tốt.
+=======
+# Web-ban-hang
+>>>>>>> 16264de40046936fee06214e33dd1c6c1322502d
