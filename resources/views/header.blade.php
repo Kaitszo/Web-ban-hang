@@ -14,13 +14,11 @@
                 <!-- Menu desktop -->
                 <div class="menu-desktop">
                     <ul class="main-menu">
-                        <li class="active-menu"><a href="/">Trang Chủ</a> </li>
+                        <li><a href="/">Trang Chủ</a> </li>
 
                         {!! $menusHtml !!}
 
-                        <li>
-                            <a href="contact.html">Liên Hệ</a>
-                        </li>
+
                     </ul>
                 </div>
 
