@@ -96,23 +96,7 @@ A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn xóa]
 
 --Model: Cart
 
-<?php
-// app/Models/Cart.php
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-
-class Cart extends Model
-{
-    protected $fillable = ['user_id', 'product_id', 'quantity'];
-
-    public function user() {
-        return $this->belongsTo(User::class);
-    }
-    public function product() {
-        return $this->belongsTo(Product::class);
-    }
-}
+![Image](https://github.com/user-attachments/assets/6caed8c5-d2ee-4ada-8095-d47c8c98b2db)
 
 
 --Controller: Phương thức CRUD cho Cart
