@@ -1,8 +1,13 @@
 🧑‍🎓 Thông tin sinh viên
+
 Họ và tên: Trần Xuân Thành
+
 Mã sinh viên: 23010160
+
 Lớp: K17_CNTT-2
+
 Môn học: Web nâng cao (TH3)
+
 🎯 Giới thiệu dự án (Giữa kỳ)
 Website bán quần áo thời trang là một hệ thống thương mại điện tử cơ bản được xây dựng bằng Laravel Framework, cho phép người dùng duyệt, tìm kiếm và mua các sản phẩm thời trang như áo, quần, phụ kiện Ngoài ra, admin có thể quản lý sản phẩm, đơn hàng và người dùng.
 Class Diagram :
