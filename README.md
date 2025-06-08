@@ -149,8 +149,8 @@ RAM ≥ 8GB
 --Hướng dẫn sử dụng
 
 1. Đăng ký & Đăng nhập
-2. 
-Người dùng truy cập trang chủ, nhấn Đăng ký để tạo tài khoản mới hoặc Đăng nhập nếu đã có tài khoản.
+
+2.Người dùng truy cập trang chủ, nhấn Đăng ký để tạo tài khoản mới hoặc Đăng nhập nếu đã có tài khoản.
 
 3. Sau khi đăng nhập thành công, người dùng có thể truy cập các chức năng mua sắm.
 
