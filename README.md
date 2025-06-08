@@ -90,7 +90,6 @@ A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn xóa]
     
     D --> E[Hiển thị giỏ hàng mới]
     
--Authentication    
 
 --Một số Code chính minh họa
 
