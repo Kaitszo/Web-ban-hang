@@ -9,59 +9,95 @@ Lớp: K17_CNTT-2
 Môn học: Web nâng cao (TH3)
 
 🎯 Giới thiệu dự án (Giữa kỳ)
+
 Website bán quần áo thời trang là một hệ thống thương mại điện tử cơ bản được xây dựng bằng Laravel Framework, cho phép người dùng duyệt, tìm kiếm và mua các sản phẩm thời trang như áo, quần, phụ kiện Ngoài ra, admin có thể quản lý sản phẩm, đơn hàng và người dùng.
+
 Class Diagram :
 ![Image](https://github.com/user-attachments/assets/7df6781f-a897-4576-8917-9744cc50a955)
 -- Sơ đồ khối
+
 Frontend: Giao diện người dùng sử dụng Blade Template, Bootstrap, jQuery.
+
 Backend: Laravel Framework (PHP), Eloquent ORM.
+
 Database: MySQL (có thể triển khai trên Cloud như Aiven/AWS RDS).
+
 Các thành phần chính:
+
 Người dùng (User/Customer)
+
 Sản phẩm (Product)
+
 Danh mục (Menu/Category)
+
 Giỏ hàng (Cart)
+
 Đơn hàng (Order/Customer-Product)
+
 Quản trị viên (Admin) 
+
 ⚙️ Sơ đồ chức năng
+
 Đăng nhập / Đăng ký
+
 Người dùng đăng nhập qua giao diện Laravel Breeze.
 
 Phân quyền admin và user.
 
 CRUD sản phẩm (Admin)
+
 Tạo, sửa, xóa, xem danh sách sản phẩm.
 
 Giỏ hàng
+
 Người dùng thêm sản phẩm vào giỏ hàng.
 
 Có thể tăng giảm số lượng hoặc xoá khỏi giỏ.
 
 Đặt hàng
+
 Sau khi chọn sản phẩm trong giỏ → xác nhận đặt hàng.
 -- Sơ đồ thuật toán
+
 -Create Cart
+
 A[User đăng nhập] --> B[Chọn sản phẩm]
+
     B --> C[Nhấn "Thêm vào giỏ"]
+    
     C --> D[Kiểm tra sản phẩm đã có trong giỏ?]
+    
     D -- Có --> E[Cập nhật số lượng]
+    
     D -- Không --> F[Thêm mới sản phẩm vào giỏ]
+    
     E & F --> G[Hiển thị giỏ hàng]
 -Edit Cart    
  A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn sửa]
+ 
     B --> C[Nhập số lượng mới]
+    
     C --> D[Lưu thay đổi]
+    
     D --> E[Hiển thị giỏ hàng mới]
+    
 -Delete Cart
 A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn xóa]
+
     B --> C[Xác nhận xóa]
+    
     C --> D[Xóa sản phẩm khỏi giỏ]
+    
     D --> E[Hiển thị giỏ hàng mới]
+    
 -Authentication    
 
 --Một số Code chính minh họa
+
 --Model: Cart
+
 <?php
+
 // app/Models/Cart.php
 namespace App\Models;
 
@@ -69,13 +105,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cart extends Model
 {
+
     protected $fillable = ['user_id', 'product_id', 'quantity'];
+    
 
     public function user() {
+    
         return $this->belongsTo(User::class);
+        
     }
+    
     public function product() {
+    
         return $this->belongsTo(Product::class);
+        
     }
 }
 --Controller: Phương thức CRUD cho Cart
