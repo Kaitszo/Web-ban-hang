@@ -40,6 +40,10 @@ Quản trị viên (Admin)
 
 ![Image](https://github.com/user-attachments/assets/25b73820-f476-4382-ac0d-37e81f600cb8)
 
+Guest browse product
+
+![Image](https://github.com/user-attachments/assets/ad345b93-c7a1-453a-a97f-7edd46a37788)
+
 --Một số Code chính minh họa
 
 --Model: Cart
