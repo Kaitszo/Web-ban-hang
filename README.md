@@ -192,7 +192,7 @@ Xem thống kê bán hàng.
 
 Link GitHub repo: https://github.com/Kaitszo/Web-ban-hang
 
-Link video 
+Link video https://youtu.be/O2PVyXlikCM
 
 Mọi thắc mắc vui lòng liên hệ email:thanhtb2005@gmail.com
 
