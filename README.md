@@ -13,7 +13,7 @@ Môn học: Web nâng cao (TH3)
 Website bán quần áo thời trang là một hệ thống thương mại điện tử cơ bản được xây dựng bằng Laravel Framework, cho phép người dùng duyệt, tìm kiếm và mua các sản phẩm thời trang như áo, quần, phụ kiện Ngoài ra, admin có thể quản lý sản phẩm, đơn hàng và người dùng.
 
 Class Diagram :
-![Image](https://github.com/user-attachments/assets/7df6781f-a897-4576-8917-9744cc50a955)
+![Image](https://github.com/user-attachments/assets/d0e30983-3a9d-4e03-bc3e-95a7c3a0400d)
 -- Sơ đồ khối
 
 Frontend: Giao diện người dùng sử dụng Blade Template, Bootstrap, jQuery.
