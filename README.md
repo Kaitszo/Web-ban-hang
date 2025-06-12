@@ -38,58 +38,7 @@ Quản trị viên (Admin)
 
 ⚙️ Sơ đồ chức năng
 
-Đăng nhập / Đăng ký
-
-Người dùng đăng nhập qua giao diện Laravel Breeze.
-
-Phân quyền admin và user.
-
-CRUD sản phẩm (Admin)
-
-Tạo, sửa, xóa, xem danh sách sản phẩm.
-
-Giỏ hàng
-
-Người dùng thêm sản phẩm vào giỏ hàng.
-
-Có thể tăng giảm số lượng hoặc xoá khỏi giỏ.
-
-Đặt hàng
-
-Sau khi chọn sản phẩm trong giỏ → xác nhận đặt hàng.
--- Sơ đồ thuật toán
-
--Create Cart
-
-A[User đăng nhập] --> B[Chọn sản phẩm]
-
-    B --> C[Nhấn "Thêm vào giỏ"]
-    
-    C --> D[Kiểm tra sản phẩm đã có trong giỏ?]
-    
-    D -- Có --> E[Cập nhật số lượng]
-    
-    D -- Không --> F[Thêm mới sản phẩm vào giỏ]
-    
-    E & F --> G[Hiển thị giỏ hàng]
--Edit Cart    
- A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn sửa]
- 
-    B --> C[Nhập số lượng mới]
-    
-    C --> D[Lưu thay đổi]
-    
-    D --> E[Hiển thị giỏ hàng mới]
-    
--Delete Cart
-A[User vào giỏ hàng] --> B[Chọn sản phẩm muốn xóa]
-
-    B --> C[Xác nhận xóa]
-    
-    C --> D[Xóa sản phẩm khỏi giỏ]
-    
-    D --> E[Hiển thị giỏ hàng mới]
-    
+![Image](https://github.com/user-attachments/assets/25b73820-f476-4382-ac0d-37e81f600cb8)
 
 --Một số Code chính minh họa
 
