@@ -54,6 +54,9 @@ Admin Crud Products
 
 ![Image](https://github.com/user-attachments/assets/6caed8c5-d2ee-4ada-8095-d47c8c98b2db)
 
+--chức năng định danh và xác thực (User) 
+
+![Image](https://github.com/user-attachments/assets/1d6d4a5b-ed81-44ea-904e-705e20f20b0c)
 
 --Controller: Phương thức CRUD cho Cart
 
