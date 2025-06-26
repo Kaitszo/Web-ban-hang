@@ -54,6 +54,14 @@ Admin Crud Products
 
 ![Image](https://github.com/user-attachments/assets/6caed8c5-d2ee-4ada-8095-d47c8c98b2db)
 
+--Model:Product
+
+![Image](https://github.com/user-attachments/assets/6e5be94a-2cdc-40d9-b20d-beb111b741e8)
+
+--Model:Custumer
+
+![Image](https://github.com/user-attachments/assets/def6adad-c14e-4ca5-ab43-4e7048e33c93)
+
 --Chức năng định danh và xác thực (User) 
 
 ![Image](https://github.com/user-attachments/assets/1d6d4a5b-ed81-44ea-904e-705e20f20b0c)
@@ -65,19 +73,30 @@ Admin Crud Products
 ![Image](https://github.com/user-attachments/assets/769e5af6-f1c7-41b8-8be2-c04ccd276d35)
 --Authentication/Authorisation: LoginController 
 ![Image](https://github.com/user-attachments/assets/29fa8500-e501-4e4b-bc02-f412cff260af)
---Security Setup
 
-CSRF: Laravel tự động bảo vệ các form với CSRF token (@csrf trong blade).
+--Bảo mật
 
-XSS: Blade tự động escape output, chỉ dùng {!! !!} cho nội dung đã kiểm soát.
+CSRF
 
-Validation: Sử dụng $request->validate() trong controller và FormRequest.
+![Image](https://github.com/user-attachments/assets/8e2a390a-441d-42c0-b077-b62d7f760e31)
 
-Authentication: Sử dụng Auth của Laravel, middleware auth cho các route cần bảo vệ.
+--Kiểm tra đầu vào ( Ví dụ trong LoginController)
 
-Authorization: Sử dụng policy hoặc middleware để kiểm soát quyền sửa/xóa cart, quản trị admin.
+![Image](https://github.com/user-attachments/assets/a1c8638e-d46c-4a0e-b98d-b9f53ba27338)
 
-Session, Cookies: Laravel quản lý session/cookie an toàn.
+-- Authentication ( Ví dụ trong LoginController)
+
+![Image](https://github.com/user-attachments/assets/3520dd64-cd36-4095-b555-326434045d98)
+
+![Image](https://github.com/user-attachments/assets/12b06698-9725-46d0-b5df-2eed2c0388ba)
+
+--SQL INJECTION ( Ví dụ trong SliderService)
+
+![Image](https://github.com/user-attachments/assets/4918c77e-d780-4c1c-b816-77ac659e53ad)
+
+-- Session & Cookie
+
+![Image](https://github.com/user-attachments/assets/9aedd7d4-a03a-41ca-a9c4-c35b03a1b262)
 
 
 --Hướng dẫn cài đặt
