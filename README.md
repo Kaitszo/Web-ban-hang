@@ -191,6 +191,12 @@ Xem thống kê bán hàng.
 
 ![Image](https://github.com/user-attachments/assets/2a5d81d9-30ae-4198-80ef-cb085e8ece95)
 
+--Giao diện database
+![Image](https://github.com/user-attachments/assets/672ce955-285a-4976-9dac-157b7105e63d)
+
+![Image](https://github.com/user-attachments/assets/a1fbcf4d-209b-4dc9-97f1-9d0079eb504a)
+
+
 🌐 Public Link
 
 Link GitHub repo: https://github.com/Kaitszo/Web-ban-hang
