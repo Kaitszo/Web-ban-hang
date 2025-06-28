@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["php81" , "composerPackages.composer"]
+nixPkgs = ["php81", "php81Packages.composer"]
 
 [phases.install]
 cmds = ["composer install --no-dev --no-interaction"]
@@ -9,3 +9,4 @@ cmds = ["php artisan config:cache"]
 
 [start]
 cmd = "php artisan serve --host=0.0.0.0 --port=$PORT"
+
